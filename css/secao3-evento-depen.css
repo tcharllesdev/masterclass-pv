@@ -1,7 +1,6 @@
 .oferta-depen-bg {
   padding-bottom: 40px;
-  background: url("./img/mockup-captura.png") no-repeat
-    80% 68% / 420px;
+  background: url("./img/mockup-captura.png") no-repeat 80% 68% / 420px;
 }
 
 .oferta-depen > span {
@@ -61,16 +60,22 @@
 }
 
 @media (max-width: 800px) {
-  .oferta-depen-bg {
+  /* .oferta-depen-bg {
     background: url("./img/mockup-captura.png") no-repeat
-      100% 60% / 300px;
+      100% 60% / 280px;
+  } */
+  .oferta-depen-bg {
+    background: url("./img/mockup-captura.png") no-repeat 20% 43%/280px;
+  }
+  .oferta-box-depen {
+    margin-top: 240px;
+    padding: 32px 32px;
   }
 }
 
 @media (max-width: 450px) {
   .oferta-depen-bg {
-    background: url("./img/mockup-captura.png") no-repeat
-      50% 52% / 260px;
+    background: url("./img/mockup-captura.png") no-repeat 50% 52% / 260px;
   }
   .oferta-depen h1 {
     font-size: 2rem;
@@ -92,8 +97,7 @@
 
 @media (max-width: 420px) {
   .oferta-depen-bg {
-    background: url("./img/mockup-captura.png") no-repeat
-      50% 52% / 260px;
+    background: url("./img/mockup-captura.png") no-repeat 50% 52% / 260px;
   }
   .oferta-box-depen > span {
     font-size: 3rem;
@@ -114,13 +118,10 @@
 }
 
 @media (max-width: 375px) {
-   .oferta-depen-bg {
-    background: url("./img/mockup-captura.png") no-repeat
-      50% 53% / 260px;
+  .oferta-depen-bg {
+    background: url("./img/mockup-captura.png") no-repeat 50% 53% / 260px;
   }
   .oferta-box-depen a {
     font-size: 1rem;
   }
 }
-
-
