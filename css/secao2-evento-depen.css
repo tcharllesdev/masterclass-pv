@@ -1,0 +1,112 @@
+.who-depen-bg {
+  border-top: 4px solid;
+  border-image: linear-gradient(270.13deg, #3f0312 38.49%, #ff0143 57.72%) 1;
+  background: url("./img/bg-casal.jpg") no-repeat 70% 20% /
+      200px,
+    url("./img/bg-tormento.jpg") no-repeat 86% 100% / 200px;
+}
+
+.who-depen {
+  padding-bottom: 40px;
+}
+.who-depen h1 {
+  margin: 40px 0 24px 0;
+  max-width: 850px;
+}
+
+.who-depen p {
+  max-width: 561px;
+  margin-bottom: 18px;
+}
+
+.who-depen h2 {
+  margin-bottom: 12px;
+}
+.who-depen a {
+  max-width: 270px;
+}
+
+@media (max-width: 1100px) {
+  .who-depen-bg {
+    height: 700px;
+    background: url("./img/bg-casal.jpg") no-repeat 100% 20% /
+        200px,
+      url("./img/bg-tormento.jpg") no-repeat 86% 100% /
+        200px;
+  }
+}
+@media (max-width: 800px) {
+  .who-depen-bg {
+    height: 700px;
+  }
+}
+@media (max-width: 450px) {
+  .who-depen-bg {
+    height: 960px;
+    background: url("./img/bg-casal.jpg") no-repeat 100% 14% /
+        140px,
+      url("./img/bg-tormento.jpg") no-repeat 60% 100% /
+        200px;
+  }
+  .who-depen h1 {
+    font-size: 2rem;
+    margin-bottom: 54px;
+  }
+  .who-depen h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .who-depen-bg {
+    height: 950px;
+    background: url("./img/bg-casal.jpg") no-repeat 100% 10% /
+        140px,
+      url("./img/bg-tormento.jpg") no-repeat 60% 100% /
+        200px;
+  }
+  .who-depen h2 {
+    font-size: 1.25rem;
+  }
+  .who-depen h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .who-depen-bg {
+    height: 1040px;
+  }
+}
+
+@media (max-width: 384px) {
+  .who-depen-bg {
+    height: 1080px;
+    background: url("./img/bg-casal.jpg") no-repeat 100% 13% /
+        130px,
+      url("./img/bg-tormento.jpg") no-repeat 60% 100% /
+        200px;
+  }
+  .who-depen h1 {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 352px) {
+  .who-depen-bg {
+    height: 1080px;
+    background: url("./img/bg-casal.jpg") no-repeat 100% 13% /
+        130px,
+      url("./img/bg-tormento.jpg") no-repeat 60% 101% /
+        200px;
+  }
+}
+@media (max-width: 321px) {
+  .who-depen-bg {
+    height: 1160px;
+    background: url("./img/bg-casal.jpg") no-repeat 100% 16% /
+        130px,
+      url("./img/bg-tormento.jpg") no-repeat 60% 100% /
+        200px;
+  }
+}

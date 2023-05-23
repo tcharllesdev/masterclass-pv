@@ -1,0 +1,59 @@
+.depen-bio-bg {
+  background-color: #121212;
+  padding: 40px 0;
+}
+
+.evento-depen-bio img {
+  border-radius: 0px 50px;
+}
+
+.evento-depen-bio a {
+  margin-top: 24px;
+  display: block;
+  max-width: 270px;
+}
+
+.depen-bio {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.depen-bio img {
+  border-radius: 0px 50px;
+  max-width: 340px;
+}
+
+.depen-bio-texto h1 {
+  margin-bottom: 24px;
+}
+.depen-bio-texto p {
+  max-width: 560px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 800px) {
+  .depen-bio {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 431px) {
+  .depen-bio-bg {
+    padding: 24px 0;
+  }
+  .depen-bio img {
+    width: 260px;
+  }
+  .depen-bio-texto h1 {
+    font-size: 1.5rem;
+  }
+  .depen-bio-texto p {
+    font-size: 1rem;
+  }
+}

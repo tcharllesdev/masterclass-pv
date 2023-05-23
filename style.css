@@ -1,0 +1,12 @@
+@import 'css/global/componentes.css';
+@import 'css/global/global.css';
+@import 'css/global/tipografia.css';
+@import 'css/global/cores.css';
+
+
+@import "css/secao1-evento-depen.css";
+@import "css/secao2-evento-depen.css";
+@import "css/secao3-evento-depen.css";
+@import "css/secao4-evento-depen.css";
+@import "css/secao5-evento-depen.css";
+@import "css/bio-evento-depen.css";

@@ -1,0 +1,126 @@
+.oferta-depen-bg {
+  padding-bottom: 40px;
+  background: url("./img/mockup-captura.png") no-repeat
+    80% 68% / 420px;
+}
+
+.oferta-depen > span {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 40px;
+  display: block;
+}
+
+.oferta-depen h1 {
+  margin-bottom: 32px;
+}
+
+.oferta-depen li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.oferta-box-depen {
+  margin-top: 32px;
+  padding: 32px 64px;
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(
+    150.06deg,
+    rgba(240, 94, 87, 0.11) 16.5%,
+    rgba(54, 9, 63, 0) 71.54%
+  );
+  border-width: 0px 2px 2px 0px;
+  border-style: solid;
+  border-color: #bd103d;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
+
+.oferta-box-depen ul {
+  margin: 32px 0 16px 0;
+}
+
+.oferta-box-depen li {
+  justify-content: center;
+  align-items: baseline;
+}
+
+.oferta-box-depen > p {
+  font-size: 1.75rem;
+}
+
+.oferta-box-depen > span {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .oferta-depen-bg {
+    background: url("./img/mockup-captura.png") no-repeat
+      100% 60% / 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .oferta-depen-bg {
+    background: url("./img/mockup-captura.png") no-repeat
+      50% 52% / 260px;
+  }
+  .oferta-depen h1 {
+    font-size: 2rem;
+  }
+  .oferta-depen > span {
+    font-size: 1.25rem;
+  }
+  .oferta-box-depen {
+    margin-top: 240px;
+    padding: 32px 32px;
+  }
+  .oferta-box-depen > p {
+    font-size: 1.25rem;
+  }
+  .oferta-depen li {
+    align-items: normal;
+  }
+}
+
+@media (max-width: 420px) {
+  .oferta-depen-bg {
+    background: url("./img/mockup-captura.png") no-repeat
+      50% 52% / 260px;
+  }
+  .oferta-box-depen > span {
+    font-size: 3rem;
+  }
+  .oferta-box-depen li {
+    align-items: first baseline;
+    gap: 0;
+  }
+  .oferta-box-depen li:first-child {
+    max-width: 220px;
+  }
+  .oferta-box-depen li:nth-child(2) {
+    gap: 8px;
+  }
+  .oferta-box-depen li:nth-child(3) {
+    gap: 2px;
+  }
+}
+
+@media (max-width: 375px) {
+   .oferta-depen-bg {
+    background: url("./img/mockup-captura.png") no-repeat
+      50% 53% / 260px;
+  }
+  .oferta-box-depen a {
+    font-size: 1rem;
+  }
+}
+
+

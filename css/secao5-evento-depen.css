@@ -1,0 +1,63 @@
+.evento-depen-faq {
+  padding-bottom: 32px;
+}
+
+.evento-depen-faq h1 {
+  margin: 40px 0 24px 0;
+}
+
+.quest-faq-depen {
+  background-color: #eee;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  padding: 20px 18px 20px 30px;
+  background-color: white;
+  font-weight: 700;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.quest-faq-depen::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 10px;
+  top: 32px;
+  left: 20px;
+  background-color: #ff0143;
+}
+
+.quest-faq-depen:after {
+  content: "\02795"; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active-faq:after {
+  content: "\2796"; 
+}
+
+.active-faq,
+.quest-faq-depen:hover {
+  background-color: #f1f1f1;
+}
+
+.resposta-faq-depen {
+  padding-left: 30px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.resposta-faq-depen p {
+ margin-bottom: 18px;
+ line-height: 1.3;
+}

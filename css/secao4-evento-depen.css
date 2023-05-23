@@ -1,0 +1,20 @@
+.depen-bio-bg {
+  background-color: #121212;
+  padding: 40px 0;
+}
+
+.evento-depen-bio img {
+  border-radius: 0px 50px;
+}
+
+.evento-depen-bio a {
+  margin-top: 24px;
+  display: block;
+  max-width: 270px;
+}
+
+@media (max-width: 431px) {
+  .depen-bio-bg {
+    padding: 24px 0;
+  }
+}
